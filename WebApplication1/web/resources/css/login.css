@@ -32,47 +32,17 @@
     background-color: red;
 }
 
-.topnav {
-  background-color: #a40b0a;
-  overflow: hidden;
-}
-
-
-.topnav a {
-  float: left;
-  color: aqua;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 30px;
-}
-
-
-.topnav a:hover {
-  background-color: lightseagreen;
-  color: black;
-}
-
-
-.topnav a.active {
-  background-color: teal;
-  color: white;
-}
-
-.header {
-  padding: 30px;
-  text-align: center;
-  background: #b3d4fc;
-}
-
 .header h1 {
   font-size: 50px;
 }
 
-.container {
+.container {  
   padding: 50px;
   width: 20%;
-  margin: auto;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  margin-left: auto;
+  margin-right: auto;
   height: auto;
   background-color:white;
   align-content: center;
@@ -93,3 +63,4 @@
     justify-content: center;  
     align-items: center;  
 }
+

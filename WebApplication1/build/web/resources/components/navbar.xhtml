@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f = "http://java.sun.com/jsf/core"
+      xmlns:composite = "http://java.sun.com/jsf/composite">
+    
+    <composite:interface>
+    </composite:interface>
+    
+    <composite:implementation>
+        <h:outputStylesheet library="css" name="navbar.css" />
+        
+        <div class="topnav">
+            <img class="brandImage" src="resources/images/terzi2.PNG"/>
+            <h:button value="Ana Sayfa" outcome="index" styleClass="topnavButton"/>
+            <h:button value="Giriş Yap" outcome="login" styleClass="topnavButton"/>
+            <h:button value="Kayıt Ol" outcome="signup" styleClass="topnavButton"/>
+            <!-- hakkımızda sayfası eklenilecek -->
+            <!-- <h:button value="Hakkımızda" outcome="about" styleClass="topnavButton"/> -->
+            <img class="ataturkImage" src="resources/images/ataturk.PNG"/>
+        </div>
+        
+    </composite:implementation>
+    
+</html>
+

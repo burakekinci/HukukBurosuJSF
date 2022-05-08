@@ -1,0 +1,45 @@
+.topnav {
+  background-color: #d7292a;
+  height: 80px;
+  padding-left:15%;
+  padding-right:15%;
+}
+
+.topnavButton {
+  float: left;
+  color: white;
+  background-color: #d7292a;
+  border: none;
+  text-align: center;
+  line-height: 100%;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  text-decoration: none;
+  font-size: 30px;
+  height: 100%;
+}
+
+.topnavButton:hover{
+    background-color: white;
+    color: black;
+}
+
+.topnavButton.active{
+  background-color: teal;
+  color: white;
+}
+
+.brandImage {
+    height: 100%;
+    width: auto;
+    float: left;
+}
+
+.ataturkImage{
+    height: 100%;
+    width: auto;
+    float: right;
+}
+
